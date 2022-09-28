@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Viking University</title>
+</head>
+
+<body>
+     <!-- Sidebar ---------------------------------------------------------------------------------------------------->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="./admission.html">Admission</a>
+  <a href="./tuition.html">Tuition fees</a>
+  <a href="./innovation.html">Research and Innovation</a>
+  <a href="./contact.html">Contact</a>
+</div>
+
+    <!--navbar------------------------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+               <span class="navbar-toggler-icon"></span> 
+            </button>
+              <a class="navbar-brand mr-auto" href="./index.html"><img src="img/viking.png"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./faculties.html"><span class="fa fa-info fa-lg"></span> Faculties</a></li> 
+                <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-list fa-lg"></span> Staff</a></li>
+                <li class="nav-item"><a class="nav-link" href="./gallery.html"><span class="fa fa-address-card fa-lg"> Gallery</a></li>
+            </ul>
+        </div>
+        <div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; menu</button>
+    </nav>
+
+   <!--jumbotron---------------------------------------------------------------------------------------------------------------->
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6 align-self-center">
+                    <h1>Viking University</h1>
+                    <p class = "d-none d-sm-block">Our vision is to become a world-class university which contributes to the betterment of the nation and its business life by providing education of the highest standards and thereby preparing its students to enter the modern business world, ensuring that they are open to domestic and foreign competition, and instilling them with social responsibility and environmental consciousness.</p>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/viking.png" class="img-fluid" height="200" width="300">
+                </div>
+            </div>
+        </div>
+    </header>
+
+   <!--carousel---------------------------------------------------------------------------------------------------------------->
+    <div class="container">
+        <div class="row row-content">
+           <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/campus.png" alt="campus">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>University of Distinctions</h2>
+                                <p class="d-none d-sm-block">Entrepreneurship courses we first started in Turkey, Happy Life program, besides Chineese, English, Russian, Arabic language education and much more...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/doc.png" alt="doc">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Okan university makes a difference</h3>
+                                <h2>in healthcare with Medicine and Dentistry Faculties</h2>
+                                <p class="d-none d-sm-block">Turkey's first "Health science Education Complex" is in Tuzla Campus</p>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/fac.png" alt="fac">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="mt-0">10 faculties, Medical Hospital, Dentistry Hospital and more than 25.000 students</h2>
+                                <p class="d-none d-sm-block">We provide education of vocational, undergraduate and graduate programs as well short- and long-term professional trainings</p>
+                            </div>
+                        </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        </ol>
+                    
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                     <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <!--body-------------------------------------------------------------------------------------------------------------->
+       <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>OUR VISION</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3" height="300" width="410" src="img/yard.png" alt="yard">
+                    <div class="media-body">
+                        <p class="d-none d-sm-block">Our vision is to become a world-class university which contributes to the betterment of the nation and its business life by providing education of the highest standards and thereby preparing its students to enter the modern business world, ensuring that they are open to domestic and foreign competition, and instilling them with social responsibility and environmental consciousness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
+                <h3>OUR MISSION</h3>
+            </div>
+            <div class="col col-sm col-md">
+                 <div class="media">
+                    <div class="media-body">
+                <p class="d-none d-sm-block">To train students to think in an analytical, interdisciplinary way, and to instill them with an entrepreneurial spirit.</p>
+                <p class="d-none d-sm-block">To invest in and support innovative scientists and scholars who are able to successfully integrate education and training and thus help our students to become exceptional graduates in their respective fields.</p>
+                <p class="d-none d-sm-block">To concentrate on educational and research activities directed at meeting the needs of society by making social responsibility and environmental consciousness our priority.</p>
+                <p class="d-none d-sm-block">To convert information into technology and social benefit.</p>
+            </div>
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/class.png" height="300" width="410" alt="class">
+            </div>
+        </div>
+    </div>
+</div>
+   <!--footer---------------------------------------------------------------------------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class=" row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./staff.html"> Staff</a></li>
+                        <li><a href="./faculties.html"> faculties</a></li>
+                        <li><a href="./contact.html"> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, fake adr Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net"> vikingUni@fakemail.net</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2022 Hamza CHEBBI</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+<!-- jQuery ,Popper.js,Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- js -->
+    <script>
+        
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    </script>
+
+</body>
+</html>

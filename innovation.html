@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Viking University</title>
+</head>
+
+<body>
+     <!-- Sidebar ---------------------------------------------------------------------------------------------------->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="./admission.html">Admission</a>
+  <a href="./tuition.html">Tuition fees</a>
+  <a href="./innovation.html">Research and Innovation</a>
+  <a href="./contact.html">Contact</a>
+</div>
+
+    <!--navbar------------------------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+               <span class="navbar-toggler-icon"></span> 
+            </button>
+              <a class="navbar-brand mr-auto" href="./index.html"><img src="img/viking.png"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./faculties.html"><span class="fa fa-info fa-lg"></span> Faculties</a></li> 
+                <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-list fa-lg"></span> Staff</a></li>
+                <li class="nav-item"><a class="nav-link" href="./gallery.html"><span class="fa fa-address-card fa-lg"> Gallery</a></li>
+            </ul>
+        </div>
+        <div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; menu</button>
+    </nav>
+
+    <!--body-------------------------------------------------------------------------------------------------------------->
+    <div class="row row-content">
+            <div class="col-12">
+                <h2>research and innovation</h2>
+                 <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#peter">
+                            Competency-Based Learning
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="peter" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block"> systems of instruction, assessment, grading, and academic reporting that are based on students demonstrating that they have learned the knowledge and skills they are expected to learn as they progress through their education.</p>
+                            </div>
+                        </div>
+                </div>
+                    
+
+                <div class="card">
+                            <div class="card-header" role="tab" id="dannyhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#danny">
+                                Video Streaming/Flipped Classroom/eLearning Trends
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="danny" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">From Zoom to Skype to Webinars and even live streaming on social media itself, video is perhaps the most visible and common form of technological innovation in K-12 and higher ed. Video, of course, enables other innovations. For example, The flipped classroom movement seems to be threatening the college lecture. As does–or should–YouTube. There is so much great content already published and accessible, that curation matters as much as creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="card">
+                            <div class="card-header" role="tab" id="agumbehead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+                                Digital textbooks
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="agumbe" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">This is a relatively minor innovation but an innovation nonetheless: free, open-source textbooks, digital textbook rental, etc. If nothing else, this makes textbooks more accessible than ever before.</p>
+                            </div>
+                        </div>
+                </div>
+                
+                    <div class="card">
+                            <div class="card-header" role="tab" id="albertohead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+                                Changing nature of faculty </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="alberto" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Today, digital networks of information make access to data and areas of specialty ubiquitous, particularly in the scientific fields. Therefore, researchers no longer need to be in the same physical location to collaborate. This change will reduce the attractiveness of many universities for expert faculty. For example, a faculty member may choose to teach at a small institution in a rural setting, yet collaborate on research with faculty in a large urban environment.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <br>
+        <br>
+   <!--footer---------------------------------------------------------------------------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class=" row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./staff.html"> Staff</a></li>
+                        <li><a href="./faculties.html"> faculties</a></li>
+                        <li><a href="./contact.html"> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, fake adr Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net"> vikingUni@fakemail.net</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2022 Hamza CHEBBI</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+<!-- jQuery ,Popper.js,Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+  <script>
+        
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    </script>
+
+</body>
+</html>
